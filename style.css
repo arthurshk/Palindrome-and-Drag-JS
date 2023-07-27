@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.drag-list {
+    width: 200px;
+    padding: 0;
+    list-style: none;
+}
+
+.drag-item {
+    padding: 8px;
+    margin: 8px 0;
+    background: lightblue;
+    border: 2px solid transparent;
+    cursor: grab;
+}
+
+.drag-over {
+    border: 2px dotted #333;
+    background: transparent;
+}
